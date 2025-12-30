@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgb(0, 0, 0),rgb(65, 139, 230),rgba(128, 128, 128, 0.703));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header{
+    background: linear-gradient(90deg, rgb(0, 0, 0),rgb(65, 139, 230),rgba(128, 128, 128, 0.703));
+    position: sticky;
+    top: 0;
+    height: 70px;
+    
+
+}
+
+
+#nav ,ul{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    margin-right: 100px;
+}
+
+li{
+    
+   display: flex;
+   justify-content: space-between ; 
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    box-shadow: 0px 1px 50px rgb(193, 6, 6);
+
+
+
+}
+
+#img1{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    box-shadow: 0px 1px 30px rgb(214, 209, 213);
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid rgb(8, 9, 0);
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: 25px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.533),rgba(128, 128, 128, 0.703));
+    
+
+
+}
+#img1:hover{
+    box-shadow: 0px 1px 100px rgb(226, 227, 222);
+    padding: 25px ;
+    transition: all 0.5s ease 0.2s;
+
+
+}
+
+.color{
+    color: rgb(0, 0, 0);
+}
+h1{
+        color: darkgrey;
+
+}
+p{
+        color: darkgrey;
+
+}
+#bio{
+
+    text-align: center;
+    
+
+}
+.social-links {
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 15px;  
+    font-size: 24px;     
+    color: white;     
+    transition: 0.3s;    
+    text-decoration: none;
+    
+}
+
+.social-links a:hover {
+    color: #010f10;      
+    transform: scale(1.1);
+}
+
+.social-links a:hover {
+    color: white;
+    text-shadow: 0 0 10px #010f11, 0 0 20px #021215; 
+    transform: scale(1.1);
+}
+
+.div{
+    display: block;
+    background-color:rgb(16, 45, 80);
+    padding: 50px;
+    height: 35vh;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 10px rgb(238, 230, 230);
+    border-color: rgb(254, 254, 254);
+    
+}
+
+.div:hover{
+    background: rgb(37, 38, 39);
+    box-shadow: 0px 1px 200px rgb(92, 113, 22);
+    transition: all 0.5s ease 0.2s;
+    border: solid orange;
+    transform: scale(00.5s);
+    transition: 0.1s ease;
+}
+
+footer{
+    background: linear-gradient(90deg, rgb(57, 57, 63) ) ;
+    text-align: center;
+    color: rgb(255, 251, 251);
+    margin: 10px;
+}
+#about{
+    text-align: center;
+}
+span{
+    color: lightskyblue;
+}
+#experience{
+    text-align: center;
+}
+#skills{
+    text-align: center;
+}
+#projects{
+    text-align: center;
+}
+#contacts{
+    text-align: center;
+}
+
